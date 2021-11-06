@@ -44,11 +44,6 @@ def crawl_certificate_pinning_ssl_inspection(driver: webdriver) -> None:
     #     print(row.text)
 
 
-# //*[@id="ag-4"]/span[2]/div[3]/span
-# html = driver.page_source
-# print(html)
-
-
 if __name__ == "__main__":
     crawl_certificate_pinning_ssl_inspection(driver)
     driver.quit()
